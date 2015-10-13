@@ -7,7 +7,7 @@ I will teach you how to edit the files in this game, you will all be allowed to 
 ###splitting the work.
 I will assign everyone a task such as describing the world or making items. Everyone is permitted to work on everything, but you will be responsible for your subject.
 ###discusssing the game
-to descuss the progress of the game, notify people and ask for help, click on the i in a circle on the right of this page. you can comment on issues and make your own.
+to discuss the progress of the game, notify people and ask for help, click on the i in a circle on the right of this page. you can comment on issues and make your own.
 ##compiling the game
 To compile the game type make. The game will be called tag, so type ./tag to run it. when you add a new file, tell me so I can add it to the compile list.
 ##contact me
