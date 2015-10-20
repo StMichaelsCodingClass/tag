@@ -1,7 +1,6 @@
 #include <iostream>
 
-int main(int nargs, char** args){
-    
+int main(){
 
     return 0;
 }
