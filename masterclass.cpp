@@ -1,4 +1,4 @@
-#include <masterclass.h>
+#include "masterclass.h"
 #include <iostream>
 
 void MasterClass::describe(){

@@ -1,5 +1,6 @@
 #ifndef MASTERCLASS_HEADER
 #define MASTERCLASS_HEADER
+#include <string>
 
 class MasterClass{
     public:
