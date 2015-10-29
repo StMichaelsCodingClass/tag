@@ -13,8 +13,9 @@ void Area::describe(){
         i->describe();
         cout<<endl;
     }
-    for(auto i=items.begin(); i!=items.end(); i++){
-        i->describe();
+    for(int i=0; i!=items.size(); i++){
+        cout<<i<<": ";
+        items[i].describe();
         cout<<endl;
     }
     std::cout<<std::endl;

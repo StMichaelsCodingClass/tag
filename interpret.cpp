@@ -19,8 +19,9 @@ void interpret(Area& current, Character& player){
         std::cout<<std::endl;
         std::cout<<"Inventory"<<std::endl;
         std::cout<<"---------"<<std::endl;
-        for(auto i:player.items){
-            i.describe();
+        for(int i=0; i!=player.items.size();  i++){
+            std::cout<<i<<": ";
+            player.items[i].describe();
             std::cout<<std::endl;
         }
         std::cout<<std::endl;
