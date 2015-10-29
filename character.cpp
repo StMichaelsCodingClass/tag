@@ -33,4 +33,12 @@ Character getPlayer(){
     return Newplayer;
 }
 
-    
+Character Spider(){
+    Character Spider;
+    Spider.health=6;
+    Spider.damage=7;
+    Spider.name="a spider";
+    Spider.maxhealth=6;
+    Spider.isPlayer=false;
+    return Spider;
+}

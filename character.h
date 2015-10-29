@@ -18,4 +18,5 @@ class Character:public MasterClass{
 Character zombie();
 Character spiter();
 Character getPlayer();
+Character Spider();
 #endif

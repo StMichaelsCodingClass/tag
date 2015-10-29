@@ -15,4 +15,5 @@ class Area:public MasterClass{
 };
 
 Area getZombieLand();
+Area getForest();
 #endif

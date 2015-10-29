@@ -21,6 +21,19 @@ void Area::describe(){
     std::cout<<std::endl;
 }
 
+Area getForest(){
+    Area ret;
+    ret.name="The Forest Land";
+    ret.description="Spiders spawn easily here";
+    ret.characters.push_back(spiter());
+    ret.characters.push_back(zombie());
+    ret.characters.push_back(Spider());
+    ret.characters.push_back(Spider());
+    ret.characters.push_back(Spider());
+    ret.items.push_back(akThing());
+    return ret;
+}
+
 Area getZombieLand(){
     Area ret;
     ret.name="The Zombie Land";
