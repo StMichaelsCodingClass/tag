@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(){
-    Area current=getZombieLand();
+    Area current=getForest();
     Character player=getPlayer();
     for(;;){
         current.describe();

@@ -42,3 +42,13 @@ Character Balooby(){
     Balooby.isPlayer=false;
     return Balooby;
 }    
+
+Character Spider(){
+    Character Spider;
+    Spider.health=6;
+    Spider.damage=7;
+    Spider.name="a spider";
+    Spider.maxhealth=6;
+    Spider.isPlayer=false;
+    return Spider;
+}
