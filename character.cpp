@@ -33,4 +33,12 @@ Character getPlayer(){
     return Newplayer;
 }
 
-    
+Character Balooby(){
+    Character Balooby;
+    Balooby.health=14;
+    Balooby.damage=5;
+    Balooby.name="a Balooby";
+    Balooby.maxhealth=14;
+    Balooby.isPlayer=false;
+    return Balooby;
+}    
